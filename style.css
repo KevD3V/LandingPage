@@ -1,4 +1,29 @@
+* {
+    margin: 0;
+    font-family: Roboto;
+}
+
 .header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #1F2937;
+    color: #f9FAF8;
+}
+
+.header-logo {
+    font-size: 24px;
+    margin-left: 100px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    color: #f9FAF8;
+}
+
+.nav-bar p {
+
+    margin: 0px 10px;
 }
