@@ -129,6 +129,7 @@ button {
     height: 300px;
 
     padding: 100px;
+    box-sizing: border-box;
 
 }
 
@@ -146,4 +147,13 @@ button {
 
 .cta-container button {
     margin-right: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #1F2937;
+    color: #f9FAF8
 }
